@@ -4,14 +4,12 @@ $(document).ready(function() {
     // Button Hover
     $('button').hover(
       function() {
-        // Hover over
         $(this).css({
           'background-color': '#8aabd1',
           'color': '#333847'
         });
       },
       function() {
-        // Hover out
         $(this).css({
           'background-color': '',
           'color': ''
@@ -23,32 +21,23 @@ $(document).ready(function() {
   // Img Hover
   $('img').hover(
     function() {
-      // Hover over
       $(this).css({
         'transform': 'scale(1.1)'
       });
     },
     function() {
-      // Hover out
       $(this).css({
         'transform': ''
       });
     }
   );
 
-  // Navigation Text Bolding
   $('.navigation li').hover(
     function() {
-      // Hover over
-      $(this).css({
-        'font-weight': 'bold'
-      });
+      $(this).addClass('bold');
     },
     function() {
-      // Hover out
-      $(this).css({
-        'font-weight': ''
-      });
+      $(this).removeClass('bold');
     }
   );
 

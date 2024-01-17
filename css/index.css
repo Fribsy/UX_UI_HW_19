@@ -275,5 +275,11 @@ img {
 }
 
 .navigation li {
-  transition: font-weight 0.3s ease;
+  position: relative;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.navigation li:hover {
+  transform: scale(1.3);
 }
