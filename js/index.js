@@ -1,23 +1,36 @@
-console.log('JS loaded!');
 $(document).ready(function() {
-    // Check if JavaScript has loaded
-    console.log('JavaScript loaded successfully');
+    console.log('JS loaded');
 
-    // Hover effect for buttons
+    // Hover
     $('button').hover(
       function() {
         // Hover over
         $(this).css({
-          'background-color': '#ffffff',
+          'background-color': '#8aabd1',
           'color': '#333847'
         });
       },
       function() {
         // Hover out
         $(this).css({
-          'background-color': '', // Empty to revert to the original style
+          'background-color': '',
           'color': ''
         });
       }
     );
   });
+
+  $('img').hover(
+    function() {
+      // Hover over
+      $(this).css({
+        'transform': 'scale(1.1)'
+      });
+    },
+    function() {
+      // Hover out
+      $(this).css({
+        'transform': ''
+      });
+    }
+  );

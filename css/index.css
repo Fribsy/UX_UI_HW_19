@@ -158,6 +158,17 @@ header p {
   padding-bottom: 20px;
 }
 
+.card h1 {
+  margin-bottom: 15px;
+}
+.card p {
+  margin-bottom: 30px;
+}
+.card img {
+  border-radius: 5% 5% 0% 0%;
+  margin-bottom: 10px;
+}
+
 p {
   font-size: 22px;
 }
@@ -257,4 +268,8 @@ p {
   cursor: pointer;
   border-radius: 20px;
   margin-bottom: 0px;
+}
+
+img {
+  transition: transform 0.3s ease;
 }
