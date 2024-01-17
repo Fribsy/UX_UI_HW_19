@@ -38,6 +38,7 @@ body {
 
 nav ul {
   list-style: none;
+  font-size: 22px;
 }
 
 nav li {
@@ -89,11 +90,11 @@ nav li {
 button {
   background-color: #46668a;
   color: #fff;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 15px 25px;
+  font-size: 25px;
   border: none;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 25px;
   margin-bottom: 0px;
 }
 
@@ -107,6 +108,7 @@ footer {
 
 footer ul {
   list-style: none;
+  font-size: 22px;
 }
 
 footer li {
@@ -152,14 +154,34 @@ header p {
   font-size: 30px;
 }
 
+h1.heading {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+section.flexContainer {
+  margin-bottom: 50px;
+}
+
 .flexContainer {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Align items horizontally at the center */
+  align-items: center; /* Align items vertically at the center */
   padding: 60px 30px;
 }
 
 .flexContainer div {
   width: 33%;
   padding: 25px;
+  box-sizing: border-box; 
+  margin: 30px;/* Include padding in the width calculation */
+}
+
+div.card,
+div.card p {
+  max-width: 600px;
+  font-size: 27px;
 }
 
 .skill-image {
@@ -168,11 +190,11 @@ header p {
   max-width: 1000px;
   display: block;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .card h1 {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 .card p {
   margin-bottom: 30px;
@@ -182,14 +204,23 @@ header p {
   margin-bottom: 10px;
 }
 
+h1 {
+  font-size: 40.5px;
+}
+
 p {
-  font-size: 22px;
+  font-size: 27px;
+}
+
+button {
+  font-size: 24px;
 }
 
 .myWork {
   padding: 60px 30px;
   padding-top: 0;
   background-color: #ebebeb;
+  margin-bottom: 50px;
 }
 
 .workGrid {
@@ -227,7 +258,7 @@ p {
 .content1,
 .content2,
 .content3 {
-  padding: 80px;
+  padding: 50px;
 }
 
 .content1,
@@ -244,9 +275,12 @@ p {
 }
 
 .content1 h1,
-.content1 p,
 .content1 button {
   margin-bottom: 30px;
+}
+
+.content1 p {
+  margin-bottom: 40px;
 }
 
 .content2 {
@@ -254,32 +288,37 @@ p {
 }
 
 .content2 h1,
-.content2 p,
 .content2 button {
   margin-bottom: 30px;
 }
 
+.content2 p {
+  margin-bottom: 40px;
+}
 .content3 {
   grid-area: content3;
 }
 
 .content3 h1,
-.content3 p,
 .content3 button {
   margin-bottom: 30px;
+}
+
+.content3 p {
+  margin-bottom: 40px;
 }
 
 .content1 button,
 .content2 button,
 .content3 button {
-  max-width: 200px;
+  max-width: fit-content;
   background-color: #46668a;
   color: #fff;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 15px 25px;
+  font-size: 24px;
   border: none;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 25px;
   margin-bottom: 0px;
 }
 
