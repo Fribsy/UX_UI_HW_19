@@ -273,3 +273,7 @@ p {
 img {
   transition: transform 0.3s ease;
 }
+
+.navigation li {
+  transition: font-weight 0.3s ease;
+}
