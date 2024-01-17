@@ -166,16 +166,16 @@ section.flexContainer {
 .flexContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Align items horizontally at the center */
-  align-items: center; /* Align items vertically at the center */
+  justify-content: center;
+  align-items: center;
   padding: 60px 30px;
 }
 
 .flexContainer div {
   width: 33%;
   padding: 25px;
-  box-sizing: border-box; 
-  margin: 30px;/* Include padding in the width calculation */
+  box-sizing: border-box;
+  margin: 30px;
 }
 
 div.card,
@@ -196,9 +196,11 @@ div.card p {
 .card h1 {
   margin-bottom: 30px;
 }
+
 .card p {
   margin-bottom: 30px;
 }
+
 .card img {
   border-radius: 5% 5% 0% 0%;
   margin-bottom: 10px;
@@ -295,6 +297,7 @@ button {
 .content2 p {
   margin-bottom: 40px;
 }
+
 .content3 {
   grid-area: content3;
 }
